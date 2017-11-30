@@ -1,0 +1,167 @@
+{
+	"id": "8df3d3d3-aab2-e3f9-262b-b4e30f3d1d4b",
+	"name": "GoSample",
+	"description": "",
+	"order": [
+		"e9216663-719c-660b-2c81-bf6f180e010a",
+		"c0ce94c2-bc05-1161-0518-898234b392a9",
+		"11cd3fa6-624b-1429-3456-5250a4be556c",
+		"c7cd6977-b3ff-16d6-bbfd-a09e10b28997",
+		"00eb3266-05b7-6fce-7086-3121b6a9d5bc"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1511800785419,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "00eb3266-05b7-6fce-7086-3121b6a9d5bc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/product/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1511870103534,
+			"name": "delete product",
+			"description": "",
+			"collectionId": "8df3d3d3-aab2-e3f9-262b-b4e30f3d1d4b",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "11cd3fa6-624b-1429-3456-5250a4be556c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/product",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1511801877616,
+			"name": "new product",
+			"description": "",
+			"collectionId": "8df3d3d3-aab2-e3f9-262b-b4e30f3d1d4b",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"A new product\",\n\t\"price\": 234.34\n\t\n}"
+		},
+		{
+			"id": "c0ce94c2-bc05-1161-0518-898234b392a9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/product/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8df3d3d3-aab2-e3f9-262b-b4e30f3d1d4b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "get \\product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1511800983216,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "c7cd6977-b3ff-16d6-bbfd-a09e10b28997",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/product",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512040359776,
+			"name": "update product",
+			"description": "",
+			"collectionId": "8df3d3d3-aab2-e3f9-262b-b4e30f3d1d4b",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": \"2\",\n\t\"name\": \"Updated product 2\",\n\t\"price\": 200\n\t\n}"
+		},
+		{
+			"id": "e9216663-719c-660b-2c81-bf6f180e010a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/products",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512039978387,
+			"name": "get products",
+			"description": "",
+			"collectionId": "8df3d3d3-aab2-e3f9-262b-b4e30f3d1d4b",
+			"responses": [],
+			"rawModeData": ""
+		}
+	]
+}
